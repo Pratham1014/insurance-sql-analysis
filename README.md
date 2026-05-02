@@ -56,7 +56,7 @@ ULIP dominates in revenue despite lower customer count.
 SELECT
 CASE 
 	WHEN age <=25 THEN 'Young'
-	When age BETWEEN 25 AND 40 THEN 'Adult'
+	When age BETWEEN 26 AND 40 THEN 'Adult'
 	ELSE 'Senior'
 END AS age_group,
 COUNT (*) AS total_customers
